@@ -1,0 +1,14 @@
+
+
+const navSlide = () => {
+    const myBur = document.querySelector('.hamburger');
+    console.log(myBur);
+    const myNav = document.querySelector('.nav-links');
+    console.log(myNav);
+
+    myBur.addEventListener("click" , () => {
+        myNav.classList.toggle('nav-active');
+    })
+};
+navSlide();
+
